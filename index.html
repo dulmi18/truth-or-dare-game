@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Truth or Dare Pro 🎮</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1>🎮 Truth or Dare Game</h1>
+
+  <div class="container">
+
+    <!-- Bottle -->
+    <div class="bottle-container">
+      <img id="bottle" src="bottle.png" alt="Bottle">
+    </div>
+
+    <button onclick="spinBottle()">Spin Bottle 🔄</button>
+
+    <!-- Result -->
+    <div id="resultBox">Add players and start!</div>
+
+    <!-- Add Player -->
+    <div class="input-area">
+      <input id="playerName" type="text" placeholder="Enter player name">
+      <button onclick="addPlayer()">Add Player ➕</button>
+    </div>
+
+    <!-- Players List -->
+    <div id="players"></div>
+
+    <!-- Truth / Dare -->
+    <div class="game-buttons">
+      <button onclick="showTruth()">Truth 🎯</button>
+      <button onclick="showDare()">Dare 🔥</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
