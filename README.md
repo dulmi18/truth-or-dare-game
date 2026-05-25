@@ -44,8 +44,8 @@ This project includes:
 
 # 🛠️ Built With
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - GitHub Pages
 
@@ -63,4 +63,3 @@ truth-or-dare/
 =======
 # truth-or-dare-game
 truth or dare web game
->>>>>>> 5bfc240b5035210920045286046cd7163d0c9506
