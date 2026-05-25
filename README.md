@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎮 Truth or Dare AI Web Game
 
 An interactive and modern Truth or Dare web application built using HTML, CSS, and JavaScript.
@@ -59,3 +60,7 @@ truth-or-dare/
 │── script.js
 │── bottle.png
 │── README.md
+=======
+# truth-or-dare-game
+truth or dare web game
+>>>>>>> 5bfc240b5035210920045286046cd7163d0c9506
